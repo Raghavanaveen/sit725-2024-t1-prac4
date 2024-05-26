@@ -3,7 +3,7 @@ const { MongoClient, ServerApiVersion } = require('mongodb');
 const path = require('path');
 
 const app = express();
-const uri = "mongodb://localhost:27017/";
+const uri = "mongodb+srv://venkata2604:Bt2n3WY9aklviaEs@cluster0.fib6qja.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 const port = process.env.PORT || 3000;
 let collection;
 
